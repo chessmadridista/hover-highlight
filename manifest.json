@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "HoverHighlight",
+    "version": "0.0.1",
+    "description": "Highlights words on hover to boost reading speed.",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "16": "icons/logo.png",
+      "48": "icons/logo.png",
+      "128": "icons/logo.png"
+    }
+  }
